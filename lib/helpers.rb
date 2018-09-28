@@ -23,7 +23,7 @@ module Helpers
   end
 
   def with_excess_centavo?(a)
-    decimals(a / 2) > 2
+    decimals(a) > 2
   end
 
   def decimals(a)
